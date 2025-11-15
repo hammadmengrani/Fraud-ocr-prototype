@@ -1,0 +1,46 @@
+# --- Environment Files ---
+.env
+*.env
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+
+# --- Data Files ---
+data.csv
+*.csv
+
+# If data folder exists and should not be tracked
+data/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- OS Specific ---
+.DS_Store
+
+# --- Logs ---
+*.log
+
+# --- IDE / Editor Specific ---
+.vscode/
+.idea/
+
+# --- Python Dependencies ---
+*.egg-info/
+dist/
+build/
+
+# --- Jupyter Notebooks Checkpoints ---
+.ipynb_checkpoints/
+
+# --- FastAPI / uvicorn logs ---
+uvicorn.log
+
+# --- Others ---
+*.sqlite3

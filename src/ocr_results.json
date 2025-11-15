@@ -1,0 +1,17 @@
+[
+  {
+    "image": "image_3.jpg",
+    "merchant_name": "Dona Mercedes Restaurant",
+    "total_amount": 22.25
+  },
+  {
+    "image": "image_2.jpg",
+    "merchant_name": "GREEN FIELD",
+    "total_amount": 115.9
+  },
+  {
+    "image": "image_1.jpg",
+    "merchant_name": "Nick \u2022s Tuscan Grill",
+    "total_amount": 62.5
+  }
+]

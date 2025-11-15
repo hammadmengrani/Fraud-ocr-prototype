@@ -1,0 +1,8 @@
+fastapi              # FastAPI web framework
+uvicorn[standard]    # ASGI server to run FastAPI
+pandas               # Data handling
+numpy                # Numeric computations
+scikit-learn         # RandomForestClassifier, preprocessing
+joblib               # Save/load models
+requests             # OCR API HTTP requests
+python-dotenv        # Load .env environment variables
