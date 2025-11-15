@@ -18,15 +18,15 @@ A Dockerized deployment for the service.
 
 The model was trained on a transactional dataset.
 
-Base Features: The model uses base features like transaction type, amount, and balances (oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest).
+Base Features: The model uses base features like transaction type, amount, and balances (oldbalanceOrg, newbalanceOrg, oldbalanceDest, newbalanceDest).
 
 Engineered Features: To capture the actual fraud signals, new features were created, as the base features alone are not predictive. These were critical for the model's high performance:
 
-diffOrig: The difference between the original balance and the new balance for the originator (oldbalanceOrg - newbalanceOrig).
+diffOrig: The difference between the original balance and the new balance for the originator (oldbalanceOrg - newbalanceOrg).
 
 diffDest: The difference for the destination (oldbalanceDest - newbalanceDest).
 
-is_balance_zeroed: A flag (1 or 0) if the originator's account was emptied (newbalanceOrig == 0).
+is_balance_zeroed: A flag (1 or 0) if the originator's account was emptied (newbalanceOrg == 0).
 
 amount_to_oldbalance_ratio: The ratio of the transaction amount to the oldbalanceOrg.
 
@@ -79,7 +79,7 @@ Input JSON:
     "amount": 3490916.0,
     "nameOrig": "C1526528147",
     "oldbalanceOrg": 3490916.0,
-    "newbalanceOrig": 0.0,
+    "newbalanceOrg": 0.0,
     "nameDest": "C138172146",
     "oldbalanceDest": 112756.43,
     "newbalanceDest": 3603672.42
